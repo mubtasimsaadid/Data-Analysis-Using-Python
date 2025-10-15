@@ -33,7 +33,7 @@ This report analyzes a trading dataset focusing on data quality, profitability p
 
 ---
 
-### 3.1 🟢 Top 5 Most Profitable Logins
+**3.1 🟢 Top 5 Most Profitable Logins**
 
 | **Rank** | **Login ID** | **Total Profit** |
 |:--------:|:-------------:|----------------:|
@@ -45,7 +45,7 @@ This report analyzes a trading dataset focusing on data quality, profitability p
 
 ---
 
-### 3.2 🔴 Top 5 Least Profitable Logins
+**3.2 🔴 Top 5 Least Profitable Logins**
 
 | **Rank** | **Login ID** | **Total Profit** |
 |:--------:|:-------------:|----------------:|
