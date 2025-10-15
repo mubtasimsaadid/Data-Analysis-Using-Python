@@ -15,7 +15,8 @@ This report analyzes a trading dataset focusing on data quality, profitability p
 **2.1 Data Cleaning Steps**
 
 - **Handling Missing & Duplicate Values:** Checked for missing and duplicate values. None found.
-- **Column Standardization:** Renamed columns with spaces to underscore format. Example: take profit → take_profit
+- **Column Standardization:** Renamed columns with spaces to underscore format.
+  - Example: take profit → take_profit
 - **Whitespaces:** Removed leading and trailing whitespaces from string values.
 - **DateTime Conversion:** Converted time columns (e.g., open_time, close_time) to proper datetime format.
 - **Numeric Validation:** Created a list of columns that contains crucial financial data and converted them into numeric floating point numbers to handle NaN, inconsistent, and non-numeric values.
@@ -65,15 +66,7 @@ This report analyzes a trading dataset focusing on data quality, profitability p
 # 4.2 Performance Disparity
 - **Insights:** Top performer achieved almost $54,000 in profit, while the least performer lost $15,000 approx.
 - **Interpretation:** This significant difference indicates variations in:
-- Trader skill levels
-- Trading strategies
-- Understanding of market conditions
-- Risk management approaches
-
-# 4.3
-- Main point 1
-  - Sub-point 1.1
-  - Sub-point 1.2
-    - Sub-sub-point 1.2.1
-- Main point 2
-  - Sub-point 2.1
+  - Trader skill levels
+  - Trading strategies
+  - Understanding of market conditions
+  - Risk management approaches
