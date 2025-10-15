@@ -69,3 +69,11 @@ This report analyzes a trading dataset focusing on data quality, profitability p
 - Trading strategies
 - Understanding of market conditions
 - Risk management approaches
+
+# 4.3
+- Main point 1
+  - Sub-point 1.1
+  - Sub-point 1.2
+    - Sub-sub-point 1.2.1
+- Main point 2
+  - Sub-point 2.1
