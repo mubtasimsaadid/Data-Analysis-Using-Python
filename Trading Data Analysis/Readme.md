@@ -13,12 +13,12 @@ This report analyzes a trading dataset focusing on data quality, profitability p
 # 2. Data Handling & Exploration
 **2.1 Data Cleaning Steps**
 
-1. Handling Missing & Duplicate Values: Checked for missing and duplicate values. None found.
-2. Column Standardization: Renamed columns with spaces to underscore format
-- Example: take profit → take_profit
-3. Whitespaces: Removed leading and trailing whitespaces from string values.
-4. DateTime Conversion: Converted time columns (e.g., open_time, close_time) to proper datetime format.
-5. Numeric Validation: Created a list of columns that contains crucial financial data and converted them into numeric floating point numbers to handle NaN, inconsistent, and non-numeric values.
+- Handling Missing & Duplicate Values: Checked for missing and duplicate values. None found.
+- Column Standardization: Renamed columns with spaces to underscore format
+- -- Example: take profit → take_profit
+- Whitespaces: Removed leading and trailing whitespaces from string values.
+- DateTime Conversion: Converted time columns (e.g., open_time, close_time) to proper datetime format.
+- Numeric Validation: Created a list of columns that contains crucial financial data and converted them into numeric floating point numbers to handle NaN, inconsistent, and non-numeric values.
 
 2.2 Data Wrangling Steps
 
@@ -28,11 +28,9 @@ Pips per Volume: Efficiency metric with 1e-6 added to prevent division by zero
 Trade Duration: Calculated in both seconds and hours
 
 
-<div align="center">
 
-## 💰 3. Profitability Analysis
+## 3. Profitability Analysis
 
-</div>
 
 ---
 
@@ -59,35 +57,16 @@ Trade Duration: Calculated in both seconds and hours
 | 5 | 13251499 | <span style="color:red;">-$11,405.24</span> |
 
 
-4. Key Insights & Interpretations
-4.1 Profitability Factors
+# 4. Key Insights & Interpretations
+**4.1 Profitability Factors**
+- **Trade Efficiency Metrics -** Better entry and exit timing, Capital allocation, Risk-reward ratios
+- **Trade Duration Strategy -** Time-based performance correlations and holding period optimization
+- **Risk Management Excellence -** Smart use of stop-loss orders, position sizing, better risk-reward ratios
 
-Trade Efficiency Metrics
-
-Better entry and exit timing
-Capital allocation
-Risk-reward ratios
-
-
-Trade Duration Strategy
-
-Time-based performance correlations
-Holding period optimization
-
-
-Risk Management Excellence
-
-Smart use of stop-loss orders
-Position sizing
-Better risk-reward ratios
-
-
-
-4.2 Performance Disparity
-Insights: The top performer achieved almost $54,000 in profit, while the least profitable trader lost approximately $15,000.
-Interpretation: This significant difference indicates variations in:
-
-Trader skill levels
-Trading strategies
-Understanding of market conditions
-Risk management approaches
+# 4.2 Performance Disparity
+**Insights:** Top performer achieved almost $54,000 in profit, while the least performer lost $15,000 approx.
+**Interpretation:** This significant difference indicates variations in:
+- Trader skill levels
+- Trading strategies
+- Understanding of market conditions
+- Risk management approaches
