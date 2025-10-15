@@ -1,7 +1,7 @@
 # Trading Data Assessment Report
 This report analyzes a trading dataset focusing on data quality, profitability patterns, and key factors contributing to trading success.
 
-# 1. Dataset Overview
+## 1. Dataset Overview
 **1.1 Basic Information**
 | **Metric** | **Value** |
 |:--------:|:-------------:|
@@ -11,7 +11,7 @@ This report analyzes a trading dataset focusing on data quality, profitability p
 | Data Quality | No Duplicate records found |
 
 
-# 2. Data Handling & Exploration
+## 2. Data Handling & Exploration
 **2.1 Data Cleaning Steps**
 
 - **Handling Missing & Duplicate Values:** Checked for missing and duplicate values. None found.
@@ -57,13 +57,13 @@ This report analyzes a trading dataset focusing on data quality, profitability p
 | 5 | 13251499 | <span style="color:red;">-$11,405.24</span> |
 
 
-# 4. Key Insights & Interpretations
+## 4. Key Insights & Interpretations
 **4.1 Profitability Factors**
 - **Trade Efficiency Metrics -** Better entry and exit timing, Capital allocation, Risk-reward ratios
 - **Trade Duration Strategy -** Time-based performance correlations and holding period optimization
 - **Risk Management Excellence -** Smart use of stop-loss orders, position sizing, better risk-reward ratios
 
-# 4.2 Performance Disparity
+**4.2 Performance Disparity**
 - **Insights:** Top performer achieved almost $54,000 in profit, while the least performer lost $15,000 approx.
 - **Interpretation:** This significant difference indicates variations in:
   - Trader skill levels
