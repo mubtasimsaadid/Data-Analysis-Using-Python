@@ -1,4 +1,4 @@
-## Trading Data Assessment Report
+# Trading Data Assessment Report
 This report analyzes a trading dataset focusing on data quality, profitability patterns, and key factors contributing to trading success.
 
 # 1. Dataset Overview
