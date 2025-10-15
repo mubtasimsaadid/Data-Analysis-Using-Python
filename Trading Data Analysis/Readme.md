@@ -38,7 +38,7 @@ Trade Duration: Calculated in both seconds and hours
 
 | **Rank** | **Login ID** | **Total Profit** |
 |:--------:|:-------------:|----------------:|
-| 1 | 13378390 | <span style="color:green;">**$53,891.98**</span> |
+| 1 | 13378390 | <span style="color:green;">$53,891.98</span> |
 | 2 | 55009560 | <span style="color:green;">$28,475.44</span> |
 | 3 | 13088202 | <span style="color:green;">$27,848.61</span> |
 | 4 | 13205503 | <span style="color:green;">$27,049.34</span> |
