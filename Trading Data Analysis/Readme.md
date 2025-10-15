@@ -28,13 +28,36 @@ Pips per Volume: Efficiency metric with 1e-6 added to prevent division by zero
 Trade Duration: Calculated in both seconds and hours
 
 
-3. Profitability Analysis
-3.1 Top 5 Most Profitable Logins
-RankLogin IDTotal Profit113378390$53,891.98255009560$28,475.44313088202$27,848.61413205503$27,049.34513070589$27,023.68
-3.2 Top 5 Least Profitable Logins
-RankLogin IDTotal Profit113103928-$14,778.82213333728-$13,868.00355011482-$12,215.00413018096-$12,194.31513251499-$11,405.24
-3.3 Distribution of Profit across Different Logins
-Based on the histogram analysis, the profit distribution appears right-skewed with a long tail toward positive profits. Most logins cluster around breakeven or modest profits, indicating high variability in trading outcomes.
+<div align="center">
+
+## 💰 3. Profitability Analysis
+
+</div>
+
+---
+
+### 3.1 🟢 Top 5 Most Profitable Logins
+
+| **Rank** | **Login ID** | **Total Profit** |
+|:--------:|:-------------:|----------------:|
+| 1 | 13378390 | <span style="color:green;">**$53,891.98**</span> |
+| 2 | 55009560 | <span style="color:green;">$28,475.44</span> |
+| 3 | 13088202 | <span style="color:green;">$27,848.61</span> |
+| 4 | 13205503 | <span style="color:green;">$27,049.34</span> |
+| 5 | 13070589 | <span style="color:green;">$27,023.68</span> |
+
+---
+
+### 3.2 🔴 Top 5 Least Profitable Logins
+
+| **Rank** | **Login ID** | **Total Profit** |
+|:--------:|:-------------:|----------------:|
+| 1 | 13103928 | <span style="color:red;">**-$14,778.82**</span> |
+| 2 | 13333728 | <span style="color:red;">-$13,868.00</span> |
+| 3 | 55011482 | <span style="color:red;">-$12,215.00</span> |
+| 4 | 13018096 | <span style="color:red;">-$12,194.31</span> |
+| 5 | 13251499 | <span style="color:red;">-$11,405.24</span> |
+
 
 4. Key Insights & Interpretations
 4.1 Profitability Factors
