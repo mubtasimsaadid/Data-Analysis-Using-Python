@@ -3,29 +3,28 @@ This report analyzes a trading dataset focusing on data quality, profitability p
 
 # 1. Dataset Overview
 **1.1 Basic Information**
-| Metric | Value |
+| **Metric** | **Value** |
+|:--------:|:-------------:|
 |Total Records | 59,317 entries | 
 | Total Columns | 14 |
 | Data Completeness | 100% (No NULL or Missing Values) |
-| Data Quality | No Duplicate records found
+| Data Quality | No Duplicate records found |
 
 
 # 2. Data Handling & Exploration
 **2.1 Data Cleaning Steps**
 
-- Handling Missing & Duplicate Values: Checked for missing and duplicate values. None found.
-- Column Standardization: Renamed columns with spaces to underscore format
-- -- Example: take profit → take_profit
-- Whitespaces: Removed leading and trailing whitespaces from string values.
-- DateTime Conversion: Converted time columns (e.g., open_time, close_time) to proper datetime format.
-- Numeric Validation: Created a list of columns that contains crucial financial data and converted them into numeric floating point numbers to handle NaN, inconsistent, and non-numeric values.
+- **Handling Missing & Duplicate Values:** Checked for missing and duplicate values. None found.
+- **Column Standardization:** Renamed columns with spaces to underscore format. Example: take profit → take_profit
+- **Whitespaces:** Removed leading and trailing whitespaces from string values.
+- **DateTime Conversion:** Converted time columns (e.g., open_time, close_time) to proper datetime format.
+- **Numeric Validation:** Created a list of columns that contains crucial financial data and converted them into numeric floating point numbers to handle NaN, inconsistent, and non-numeric values.
 
-2.2 Data Wrangling Steps
-
-Profitable Flag: Binary indicator (1 for profit, 0 otherwise)
-Price Change: Absolute difference between close_price and open_price
-Pips per Volume: Efficiency metric with 1e-6 added to prevent division by zero
-Trade Duration: Calculated in both seconds and hours
+**2.2 Data Wrangling Steps**
+- **Profitable Flag:** Binary indicator (1 for profit, 0 otherwise)
+- **Price Change:** Absolute difference between close_price and open_price
+- **Pips per Volume:** Efficiency metric with 1e-6 added to prevent division by zero
+- **Trade Duration:** Calculated in both seconds and hours
 
 
 
@@ -50,7 +49,7 @@ Trade Duration: Calculated in both seconds and hours
 
 | **Rank** | **Login ID** | **Total Profit** |
 |:--------:|:-------------:|----------------:|
-| 1 | 13103928 | <span style="color:red;">**-$14,778.82**</span> |
+| 1 | 13103928 | <span style="color:red;">-$14,778.82</span> |
 | 2 | 13333728 | <span style="color:red;">-$13,868.00</span> |
 | 3 | 55011482 | <span style="color:red;">-$12,215.00</span> |
 | 4 | 13018096 | <span style="color:red;">-$12,194.31</span> |
