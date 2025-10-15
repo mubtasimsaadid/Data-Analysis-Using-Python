@@ -14,7 +14,7 @@ This report analyzes a trading dataset focusing on data quality, profitability p
 ## 2. Data Handling & Exploration
 **2.1 Data Cleaning Steps**
 
-- **Handling Missing & Duplicate Values:** Checked for missing and duplicate values. None found.
+- **Handling Missing & Duplicate Values:** No missing and duplicate values were found.
 - **Column Standardization:** Renamed columns with spaces to underscore format.
   - Example: take profit → take_profit
 - **Whitespaces:** Removed leading and trailing whitespaces from string values.
