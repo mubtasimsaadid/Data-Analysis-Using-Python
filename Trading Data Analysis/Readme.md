@@ -63,9 +63,8 @@ This report analyzes a trading dataset focusing on data quality, profitability p
 - **Risk Management Excellence -** Smart use of stop-loss orders, position sizing, better risk-reward ratios
 
 # 4.2 Performance Disparity
-**Insights:** Top performer achieved almost $54,000 in profit, while the least performer lost $15,000 approx.
---
-**Interpretation:** This significant difference indicates variations in:
+- **Insights:** Top performer achieved almost $54,000 in profit, while the least performer lost $15,000 approx.
+- **Interpretation:** This significant difference indicates variations in:
 - Trader skill levels
 - Trading strategies
 - Understanding of market conditions
